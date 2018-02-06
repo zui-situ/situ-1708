@@ -1,4 +1,5 @@
 require(['config'],function(){
+    // 轮播图部分
     require(['jquery'],function($){
         // 显示第一张
         $('.banner .images li').eq(0).show();

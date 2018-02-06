@@ -1246,22 +1246,8 @@
   background: url(../img/top_brand.png) no-repeat;
 }
 
-#box .main .brand-top .caption .right {
-  float: right;
-  padding-right: 20px;
-  position: relative;
-  color: #000;
-  font-size: 14px;
-}
-
-#box .main .brand-top .caption .right i {
-  display: block;
-  height: 15px;
-  width: 15px;
-  background: url(../img/icon.fw.png) no-repeat -300px 0;
-  position: absolute;
-  top: 2px;
-  right: 0;
+#box .main .brand-dowm {
+  padding-bottom: 40px;
 }
 
 #box .main .brand-dowm .brand-left {
@@ -1316,4 +1302,208 @@
 
 #box .main .brand-dowm .brand-center .brand-item .brand-info .brand-txt .brand-summary {
   font-size: 12px;
+}
+
+#box .main .brand-dowm .bill {
+  float: right;
+  width: 240px;
+  margin-top: -37px;
+}
+
+#box .main .brand-dowm .bill .bill-top {
+  padding-bottom: 9px;
+}
+
+#box .main .brand-dowm .bill .bill-top .bill-title {
+  font-size: 22px;
+  font-weight: bolder;
+  float: left;
+}
+
+#box .main .brand-dowm .bill .bill-top .bill-page {
+  float: right;
+  color: #B1B1C3;
+}
+
+#box .main .brand-dowm .bill .bill-top .bill-page .arrow-left {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background: url(../img/icon.fw.png) no-repeat -370px 0;
+}
+
+#box .main .brand-dowm .bill .bill-top .bill-page .arrow-right {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background: url(../img/icon.fw.png) no-repeat -400px 0;
+}
+
+#box .main .brand-dowm .bill .bill-top .bill-page .bill-change {
+  font-size: 16px;
+}
+
+#box .main .brand-dowm .bill .bill-top .bill-page .bill-num {
+  font-size: 16px;
+}
+
+#box .main .brand-dowm .bill .bill-show {
+  height: 290px;
+  width: 240px;
+  background: #fff;
+}
+
+#box .main .brand-dowm .bill .bill-show .bill-list .bill-item {
+  position: relative;
+}
+
+#box .main .brand-dowm .bill .bill-show .bill-list .bill-item .link {
+  display: block;
+  height: 200px;
+  width: 240px;
+}
+
+#box .main .brand-dowm .bill .bill-show .bill-list .bill-item .link img {
+  display: block;
+  height: 200px;
+  width: 240px;
+}
+
+#box .main .brand-dowm .bill .bill-show .bill-list .bill-item .bill-title {
+  display: block;
+  position: absolute;
+  bottom: 82px;
+  left: 0;
+  background: #0099E6;
+  font-size: 12px;
+  color: #fff;
+  height: 36px;
+  width: 240px;
+  line-height: 36px;
+  text-align: center;
+}
+
+#box .main .brand-dowm .bill .bill-show .bill-list .bill-item .bill-txt {
+  font-size: 12px;
+  color: #B1B1C3;
+  margin: 18px 20px  0 20px;
+}
+
+#box .promise {
+  width: 100%;
+  background: #0099E6;
+}
+
+#box .promise .container .promise-container {
+  display: block;
+  height: 100px;
+  width: 100%;
+}
+
+#box .promise .container .promise-container .promise-img {
+  height: 100px;
+  width: 1190px;
+}
+
+#box .footer .footer-top {
+  padding-top: 30px;
+}
+
+#box .footer .footer-top .footer-tl {
+  float: left;
+}
+
+#box .footer .footer-top .footer-tl .footer-logo {
+  display: block;
+  height: 60px;
+  width: 110px;
+}
+
+#box .footer .footer-top .footer-tl .footer-logo img {
+  height: 60px;
+  width: 110px;
+}
+
+#box .footer .footer-top .footer-tl .footer-server {
+  display: block;
+  height: 30px;
+  width: 110px;
+  background: #0099E6;
+  border-radius: 5px 5px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+#box .footer .footer-top .footer-tl .server-time {
+  font-size: 12px;
+  padding-top: 12px;
+}
+
+#box .footer .footer-top .footer-tc {
+  float: left;
+  font-size: 12px;
+  line-height: 24px;
+  padding-left: 90px;
+}
+
+#box .footer .footer-top .footer-tc .column-center {
+  width: 140px;
+  float: left;
+}
+
+#box .footer .footer-top .footer-tc .column-center dl dt {
+  font-weight: bolder;
+}
+
+#box .footer .footer-top .footer-tr {
+  background: url(../img/erweima.png) no-repeat;
+  float: right;
+  height: 140px;
+  width: 100px;
+}
+
+#box .footer .footer-down {
+  width: 100%;
+  padding-top: 22px;
+}
+
+#box .footer .footer-down .border {
+  width: 100%;
+  border-top: 1px solid #E6E6E6;
+  position: relative;
+}
+
+#box .footer .footer-down .border span {
+  font-size: 12px;
+  color: #B1B1C3;
+  position: absolute;
+  top: -9px;
+  left: 50%;
+  margin-left: -192px;
+  background: #fff;
+  padding: 0 10px;
+}
+
+#box .footer .footer-down .footer-dc {
+  padding: 27px 0 24px 140px;
+}
+
+#box .footer .footer-down .footer-dc li {
+  width: 108px;
+  float: left;
+  padding-left: 6px;
+}
+
+#box .footer .footer-down .footer-dc li a {
+  display: block;
+  height: 40px;
+  width: 108px;
+}
+
+#box .footer .footer-down .footer-dc li a img {
+  width: 108px;
+  height: 40px;
 }

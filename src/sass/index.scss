@@ -450,13 +450,10 @@
             .caption{
                 height:35px;padding-top:40px;
                 .left{display:block;float:left;width:215px;height:25px;background:url(../img/top_brand.png) no-repeat;}
-                .right{
-                    float:right;padding-right:20px;position:relative;color:#000;font-size:14px;
-                    i{display:block;height:15px;width:15px;background:url(../img/icon.fw.png) no-repeat -300px 0;position:absolute;top:2px;right:0;}
-                }
             }
         }
         .brand-dowm{
+            padding-bottom:40px;
             .brand-left{
                 display:block;width:240px;height:290px;float:left;
                 img{height:290px;width:240px;}
@@ -473,6 +470,87 @@
                             .brand-name{font-size:12px;font-weight:bolder;color:#000;display:block;}
                             .brand-summary{font-size:12px;}
                         }
+                    }
+                }
+            }
+            .bill{
+                float:right;width:240px;margin-top:-37px;
+                .bill-top{
+                    padding-bottom:9px;
+                    .bill-title{
+                        font-size:22px;font-weight:bolder;float:left;
+                    }
+                    .bill-page{
+                        float:right;color:#B1B1C3;
+                        .arrow-left{display:inline-block;height:20px;width:20px;background:url(../img/icon.fw.png) no-repeat -370px 0;}
+                        .arrow-right{display:inline-block;height:20px;width:20px;background:url(../img/icon.fw.png) no-repeat -400px 0;}
+                        .bill-change{font-size:16px;}
+                        .bill-num{font-size:16px;}
+                    }
+                }
+                .bill-show{
+                    height:290px;width:240px;background:#fff;
+                    .bill-list{
+                        .bill-item{
+                            position:relative;
+                            .link{
+                                display:block;height:200px;width:240px;
+                                img{display:block;height:200px;width:240px;}
+                            }
+                            .bill-title{display:block;position:absolute;bottom:82px;left:0;background:$mainColor;font-size:12px;color:#fff;height:36px;width:240px;line-height:36px;text-align:center;}
+                            .bill-txt{font-size:12px;color:#B1B1C3;margin:18px 20px  0 20px;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .promise{
+        width:100%;background:$mainColor;
+        .container{
+            .promise-container{
+                display:block;height:100px;width:100%;
+                .promise-img{height:100px;width:1190px;}
+            }
+        }
+    }
+    .footer{
+        .footer-top{
+            padding-top:30px;
+            .footer-tl{
+                float:left;
+                .footer-logo{
+                    display:block;height:60px;width:110px;
+                    img{height:60px;width:110px;}
+                }
+                .footer-server{display:block;height:30px;width:110px;background:$mainColor;border-radius:5px 5px;font-size:12px;color:#fff;line-height:30px;text-align:center;margin-top:24px;}
+                .server-time{font-size:12px;padding-top:12px;}
+            }
+            .footer-tc{
+                float:left;font-size:12px;line-height:24px;padding-left:90px;
+                .column-center{
+                    width:140px;float:left;
+                    dl{
+                        dt{font-weight:bolder;}
+                    }
+                }
+            }
+            .footer-tr{background:url(../img/erweima.png) no-repeat;float:right;height:140px;width:100px;
+            }
+        }
+        .footer-down{
+            width:100%;padding-top:22px;
+            .border{
+                width:100%;border-top:1px solid $borderColor;position:relative;
+                span{font-size:12px;color:#B1B1C3;position:absolute;top:-9px;left:50%;margin-left:-192px;background: #fff;padding:0 10px;}
+            }
+            .footer-dc{
+                padding:27px 0 24px 140px;
+                li{
+                    width:108px;float:left;padding-left:6px;
+                    a{
+                        display:block;height:40px;width:108px;
+                        img{width:108px;height:40px;}
                     }
                 }
             }
