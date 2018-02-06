@@ -1,0 +1,255 @@
+.logo .ceiling {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1D6EAE;
+  padding: 10px 0;
+  z-index: 1000;
+  opacity: 0.95;
+  display: none;
+}
+
+.logo .ceiling .htc-logo {
+  display: block;
+  width: 230px;
+  height: 30px;
+  float: left;
+}
+
+.logo .ceiling .htc-logo img {
+  width: 230px;
+  height: 30px;
+}
+
+.logo .ceiling .ceiling-search {
+  float: right;
+  width: 600px;
+  position: relative;
+  padding-right: 10px;
+}
+
+.logo .ceiling .ceiling-search input {
+  width: 498px;
+  height: 30px;
+  border: 1px solid #0099E6;
+  font-size: 12px;
+}
+
+.logo .ceiling .ceiling-search a {
+  display: block;
+  height: 32px;
+  width: 100px;
+  background: #0099E6;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.logo .ceiling .ceiling-search a i {
+  display: block;
+  height: 24px;
+  width: 24px;
+  background: url(../img/icon.fw.png) no-repeat -30px 0;
+  position: absolute;
+  top: 5px;
+  left: 36px;
+}
+
+.logo .ceiling .ceiling-car {
+  display: block;
+  height: 32px;
+  width: 110px;
+  background: #0099E6;
+  font-size: 14px;
+  line-height: 32px;
+  position: relative;
+  float: right;
+  text-align: center;
+  color: #fff;
+}
+
+.logo .ceiling .ceiling-car i {
+  display: block;
+  height: 23px;
+  width: 23px;
+  background: url("../img/icon.fw.png") no-repeat -70px 0;
+  position: absolute;
+  top: 5px;
+  left: 6px;
+}
+
+.logo .ceiling .ceiling-car span {
+  display: block;
+  height: 20px;
+  width: 28px;
+  background: #FF5555;
+  border-radius: 10px 10px;
+  position: absolute;
+  top: -9px;
+  left: 23px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.nav .stairway {
+  position: fixed;
+  top: 30%;
+  right: 60px;
+  width: 39px;
+  height: 440px;
+}
+
+.nav .stairway .classify {
+  background: #fff;
+  border-right: 1px solid #E6E6E6;
+  border-left: 1px solid #E6E6E6;
+}
+
+.nav .stairway .classify a {
+  display: block;
+  height: 38px;
+  width: 39px;
+  border-top: 1px solid #E6E6E6;
+  position: relative;
+}
+
+.nav .stairway .classify a i {
+  display: block;
+  height: 20px;
+  width: 20px;
+  background: url(../img/icon.fw.png) no-repeat -370px 0;
+  position: absolute;
+  top: 9px;
+  left: 8px;
+}
+
+.nav .stairway .classify a span {
+  display: none;
+  height: 35px;
+  width: 32px;
+  background: #00A4ED;
+  font-size: 12px;
+  padding: 3px 0 0 6px;
+  color: #fff;
+}
+
+.nav .stairway .classify a:nth-child(2) i {
+  background: url(../img/icon.fw.png) no-repeat -400px 0;
+}
+
+.nav .stairway .classify a:nth-child(2) span {
+  background: #0077DD;
+}
+
+.nav .stairway .classify a:nth-child(3) i {
+  background: url(../img/icon.fw.png) no-repeat -430px 0;
+}
+
+.nav .stairway .classify a:nth-child(3) span {
+  background: #FF5555;
+}
+
+.nav .stairway .classify a:nth-child(4) i {
+  background: url(../img/icon.fw.png) no-repeat -460px 0;
+}
+
+.nav .stairway .classify a:nth-child(4) span {
+  background: #67CB33;
+}
+
+.nav .stairway .classify a:nth-child(5) i {
+  background: url(../img/icon.fw.png) no-repeat -490px 0;
+}
+
+.nav .stairway .classify a:nth-child(5) span {
+  background: #FF45AA;
+}
+
+.nav .stairway .classify a:nth-child(6) i {
+  background: url(../img/icon.fw.png) no-repeat -30px -30px;
+}
+
+.nav .stairway .classify a:nth-child(6) span {
+  background: #8834EE;
+}
+
+.nav .stairway .classify a:nth-child(7) i {
+  background: url(../img/icon.fw.png) no-repeat -520px 0;
+}
+
+.nav .stairway .classify a:nth-child(7) span {
+  background: #D37A5C;
+}
+
+.nav .stairway .classify a:nth-child(8) {
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.nav .stairway .classify a:nth-child(8) i {
+  background: url(../img/icon.fw.png) no-repeat -550px 0;
+}
+
+.nav .stairway .classify a:nth-child(8) span {
+  background: #FFA935;
+}
+
+.nav .stairway .app-code {
+  margin-top: 8px;
+  background: #BBBBBB;
+  display: block;
+  height: 38px;
+  width: 39px;
+  border-top: 1px solid #E6E6E6;
+  position: relative;
+  z-index: 1000;
+}
+
+.nav .stairway .app-code i {
+  display: block;
+  height: 20px;
+  width: 20px;
+  background: url(../img/icon.fw.png) no-repeat -580px 0;
+  position: absolute;
+  top: 9px;
+  left: 8px;
+}
+
+.nav .stairway .app-code .erweima {
+  width: 140px;
+  height: 155px;
+  position: absolute;
+  top: -120px;
+  left: -140px;
+  z-index: 100;
+  background: url(../img/appcode.png) no-repeat;
+  z-index: 9000;
+  display: none;
+}
+
+.nav .stairway .app-code:hover .erweima {
+  display: block;
+}
+
+.nav .stairway .go-top {
+  margin-top: 3px;
+  background: #BBBBBB;
+  display: block;
+  height: 38px;
+  width: 39px;
+  border-top: 1px solid #E6E6E6;
+  position: relative;
+}
+
+.nav .stairway .go-top i {
+  display: block;
+  height: 20px;
+  width: 20px;
+  background: url(../img/icon.fw.png) no-repeat 0 -30px;
+  position: absolute;
+  top: 9px;
+  left: 8px;
+}

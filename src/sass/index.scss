@@ -158,11 +158,11 @@
     .banner{
         position:relative;
         .images{
-            width:100%;position:absolute;top:0;left:0;
+            width:100%;position:absolute;top:0;left:0;height:420px;
             li{
-                position:absolute;top:0;left:0;padding-left:220px;z-index:-10;display:none;width:100%;z-index:1;
+                position:absolute;top:0;left:0;z-index:-10;display:none;width:100%;z-index:1;
                 a{
-                    display:block;height:420px;width:770px;
+                    display:block;height:420px;width:770px;margin-left:220px;
                     img{display:block;height:420px;width:770px;}
                 }
             }
@@ -295,7 +295,7 @@
                         .seller-top{
                             display:block;
                             .seller-store{
-                                display:block;height:180px;width:390px;
+                                display:block;height:160px;width:390px;
                             }
                             .seller-summary{
                                 height:34px;background:$mainColor;

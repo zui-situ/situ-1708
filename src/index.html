@@ -5,7 +5,7 @@
     <title>海豚村</title>
     <link rel="stylesheet" type="text/css" href="css/base.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <link rel="stylesheet" type="text/css" href="lib/jquery.lxCarousel/jquery.lxCarousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/js_need.css" />
     <script src="js/require.js" data-main="js/index"></script>
 </head>
 <body>
@@ -60,6 +60,22 @@
                         <i></i>
                         <span>0</span>
                     </a>
+                </div>
+            </div>
+            <div class="ceiling">
+                <div class="container">
+                    <a href="" class="htc-logo">
+                        <img src="img/htc_txt.png" alt="" />
+                    </a>
+                    <a href="#" class="ceiling-car">
+                        购物车
+                        <i></i>
+                        <span>0</span>
+                    </a>
+                    <div class="ceiling-search">
+                        <input type="text" placeholder="搜“Whoo”试试 体验顶级奢华护肤"/>
+                        <a href="" title="搜索"><i></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -933,6 +949,32 @@
                 </ul>
                 <a href="#" class="n_right"></a>
             </div>
+            <div class="stairway">
+                <div class="classify">
+                    <a href="#country-mall">
+                        <i></i>
+                        <span>全球精馆</span>
+                    </a>
+                    <a href="#global-seller">
+                        <i></i>
+                        <span>全球商家</span>
+                    </a>
+                    <a href="#classify-mb">
+                        <i></i>
+                        <span>母婴用品</span>
+                    </a>
+                    <a href="#classify-hn"><i></i><span>营养保健</span></a>
+                    <a href="#classify-beauty"><i></i><span>美容药妆</span></a>
+                    <a href="#classify-pc"><i></i><span>个人护理</span></a>
+                    <a href="#classify-hk"><i></i><span>家具厨卫</span></a>
+                    <a href="#classify-gf"><i></i><span>食品精选</span></a>
+                </div>
+                <a href="" class="app-code">
+                    <span href="" class="erweima"></span>
+                    <i></i>
+                </a>
+                <a href="" class="go-top"><i></i></a>
+            </div>
         </div>
         <div class="banner">
             <ul class="images clearfix">
@@ -988,7 +1030,7 @@
                 <div class="sales clearfix">
                     <ul class="sales-list">
                         <li>
-                            <a href="" class="good">
+                            <a href="" class="good good-up">
                                 <img class="corner" src="img/byz.png" alt="" />
                                 <img src="img/goods12.jpg" alt="" />
                                 <p class="good-name">Trilogy&nbsp;玫瑰果油圣诞套装</p>
@@ -997,7 +1039,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="" class="good">
+                            <a href="" class="good good-up">
                                 <img class="corner" src="img/byz.png" alt="" />
                                 <img src="img/goods12.jpg" alt="" />
                                 <p class="good-name">Trilogy&nbsp;玫瑰果油圣诞套装</p>
@@ -1006,7 +1048,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="" class="good">
+                            <a href="" class="good good-up">
                                 <img class="corner" src="img/byz.png" alt="" />
                                 <img src="img/goods12.jpg" alt="" />
                                 <p class="good-name">Trilogy&nbsp;玫瑰果油圣诞套装</p>
@@ -1015,7 +1057,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="" class="good">
+                            <a href="" class="good good-up">
                                 <img class="corner" src="img/byz.png" alt="" />
                                 <img src="img/goods12.jpg" alt="" />
                                 <p class="good-name">Trilogy&nbsp;玫瑰果油圣诞套装</p>
@@ -1024,7 +1066,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="" class="good">
+                            <a href="" class="good good-up">
                                 <img class="corner" src="img/byz.png" alt="" />
                                 <img src="img/goods12.jpg" alt="" />
                                 <p class="good-name">Trilogy&nbsp;玫瑰果油圣诞套装</p>
@@ -1038,7 +1080,7 @@
                     </a>
                 </div>
                 <div class="global">
-                    <div class="country-mall">
+                    <div class="country-mall" id="country-mall">
                         <h2 class="caption">
                             <a href="" class="left"></a>
                             <a href="" class="right">
@@ -1112,7 +1154,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="global-seller">
+                    <div class="global-seller" id="global-seller">
                         <h2 class="caption">
                             <a href="" class="left"></a>
                             <a href="" class="right">
@@ -1141,7 +1183,7 @@
                                 </div>
                                 <ul class="seller-bottom clearfix">
                                     <li class="seller-good">
-                                        <a href="" class="good-show">
+                                        <a href="" class="good-show good-up">
                                             <img src="img/goods16.jpg" alt="" />
                                             <p class="good-name">Swisse男士复合维生素</p>
                                             <p class="good-price">
@@ -1151,48 +1193,7 @@
                                         </a>
                                     </li>
                                     <li class="seller-good">
-                                        <a href="" class="good-show">
-                                            <img src="img/goods16.jpg" alt="" />
-                                            <p class="good-name">Swisse男士复合维生素</p>
-                                            <p class="good-price">
-                                                <em>￥207.00</em>
-                                                <span>AU$36.95</span>
-                                            </p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="seller-intro">
-                                <a href="" class="seller-top">
-                                    <img src="img/store2.jpg" alt="" class="seller-store"/>
-                                    <p class="seller-summary">
-                                        <span>全场5折起</span>
-                                        <span class="seller-go">进入店铺
-                                            <i></i>
-                                        </span>
-                                    </p>
-                                </a>
-                                <div class="seller-middle clearfix">
-                                    <a href="" class="seller-logo">
-                                        <img src="img/pharmacy.jpg" >
-                                    </a>
-                                    <p class="seller-text">
-                                        Pharmacy Online是一家家喻户晓的澳洲最大的药品保健品和营养品电商之一，总部位于澳大利亚新南威尔士洲，客户超过60万
-                                    </p>
-                                </div>
-                                <ul class="seller-bottom clearfix">
-                                    <li class="seller-good">
-                                        <a href="" class="good-show">
-                                            <img src="img/goods16.jpg" alt="" />
-                                            <p class="good-name">Swisse男士复合维生素</p>
-                                            <p class="good-price">
-                                                <em>￥207.00</em>
-                                                <span>AU$36.95</span>
-                                            </p>
-                                        </a>
-                                    </li>
-                                    <li class="seller-good">
-                                        <a href="" class="good-show">
+                                        <a href="" class="good-show good-up">
                                             <img src="img/goods16.jpg" alt="" />
                                             <p class="good-name">Swisse男士复合维生素</p>
                                             <p class="good-price">
@@ -1223,7 +1224,7 @@
                                 </div>
                                 <ul class="seller-bottom clearfix">
                                     <li class="seller-good">
-                                        <a href="" class="good-show">
+                                        <a href="" class="good-show good-up">
                                             <img src="img/goods16.jpg" alt="" />
                                             <p class="good-name">Swisse男士复合维生素</p>
                                             <p class="good-price">
@@ -1233,7 +1234,48 @@
                                         </a>
                                     </li>
                                     <li class="seller-good">
-                                        <a href="" class="good-show">
+                                        <a href="" class="good-show good-up">
+                                            <img src="img/goods16.jpg" alt="" />
+                                            <p class="good-name">Swisse男士复合维生素</p>
+                                            <p class="good-price">
+                                                <em>￥207.00</em>
+                                                <span>AU$36.95</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="seller-intro">
+                                <a href="" class="seller-top">
+                                    <img src="img/store2.jpg" alt="" class="seller-store"/>
+                                    <p class="seller-summary">
+                                        <span>全场5折起</span>
+                                        <span class="seller-go">进入店铺
+                                            <i></i>
+                                        </span>
+                                    </p>
+                                </a>
+                                <div class="seller-middle clearfix">
+                                    <a href="" class="seller-logo">
+                                        <img src="img/pharmacy.jpg" >
+                                    </a>
+                                    <p class="seller-text">
+                                        Pharmacy Online是一家家喻户晓的澳洲最大的药品保健品和营养品电商之一，总部位于澳大利亚新南威尔士洲，客户超过60万
+                                    </p>
+                                </div>
+                                <ul class="seller-bottom clearfix">
+                                    <li class="seller-good">
+                                        <a href="" class="good-show good">
+                                            <img src="img/goods16.jpg" alt="" />
+                                            <p class="good-name">Swisse男士复合维生素</p>
+                                            <p class="good-price">
+                                                <em>￥207.00</em>
+                                                <span>AU$36.95</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="seller-good">
+                                        <a href="" class="good-show good">
                                             <img src="img/goods16.jpg" alt="" />
                                             <p class="good-name">Swisse男士复合维生素</p>
                                             <p class="good-price">
@@ -1248,7 +1290,142 @@
                     </div>
                 </div>
                 <ul class="classify-container">
-                    <li class="classify-mb clearfix">
+                    <li class="classify-mb clearfix" id="classify-mb">
+                        <h2 class="caption">
+                            <a href="" class="left"></a>
+                            <a href="" class="right">
+                                查看更多
+                                <i></i>
+                            </a>
+                        </h2>
+                        <div class="classify-left">
+                            <a href="" class="classify-logo"><img src="img/baby.jpg" alt="" /></a>
+                            <div class="classify-hot">
+                                <h3 class="hot-title">最热HOT
+                                </h3>
+                                <i class="title-border"></i>
+                                <ul class="hot-goods clearfix">
+                                    <li><a href="">配方奶粉</a></li>
+                                    <li><a href="">宝宝营养</a></li>
+                                    <li><a href="">羊奶粉</a></li>
+                                    <li><a href="">宝宝洗浴</a></li>
+                                    <li><a href="">喂养用品</a></li>
+                                    <li><a href="">奶瓶奶嘴</a></li>
+                                    <li><a href="">宝宝护肤</a></li>
+                                    <li><a href="">吸奶/储奶器</a></li>
+                                    <li><a href="">备孕营养</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="classify-center">
+                            <div class="center-up clearfix">
+                                <a href="" class="good-first clearfix">
+                                    <img src="img/goods4.jpg" alt="" />
+                                    <div class="good-txt">
+                                        <span class="good-summary">【6件包邮装】Aptamil...</span>
+                                        <p class="good-info"> 适用于6-10个月的婴儿，特别研发的配方三大配方革新主要</p>
+                                        <span class="good-price">
+                                            <em>￥1758.00</em>
+                                            <span>$211.32</span>
+                                        </span>
+                                    </div>
+                                </a>
+                                <a href="" class="good">
+                                    <img src="img/aptamil.jpg" alt="" /> 
+                                    <div class="good-txt">
+                                        <p class="good-summary">【包邮装】爱他美 白金版4段</p>
+                                        <span class="good-price">
+                                            <em>￥688.00</em>
+                                            <span>AU$122.81</span>
+                                        </span>
+                                    </div>       
+                                </a>
+                            </div>
+                            <div class="center-down">
+                                <a href="" class="good">
+                                    <img src="img/pediasure.jpg" alt="" /> 
+                                    <div class="good-txt">
+                                        <p class="good-summary">【包邮装】爱他美 白金版4段</p>
+                                        <span class="good-price">
+                                            <em>￥688.00</em>
+                                            <span>AU$122.81</span>
+                                        </span>
+                                    </div>       
+                                </a>
+                                <a href="" class="good">
+                                    <img src="img/goods5.jpg" alt="" /> 
+                                    <div class="good-txt">
+                                        <p class="good-summary">【包邮装】爱他美 白金版4段</p>
+                                        <span class="good-price">
+                                            <em>￥688.00</em>
+                                            <span>AU$122.81</span>
+                                        </span>
+                                    </div>       
+                                </a>
+                                <a href="" class="good">
+                                    <img src="img/ostelin.jpg" alt="" /> 
+                                    <div class="good-txt">
+                                        <p class="good-summary">【包邮装】爱他美 白金版4段</p>
+                                        <span class="good-price">
+                                            <em>￥688.00</em>
+                                            <span>AU$122.81</span>
+                                        </span>
+                                    </div>       
+                                </a>
+                            </div>
+                        </div>
+                        <div class="classify-right">
+                            <h4 class="new-hot">
+                                <i class="title-border"></i>
+                                <span>最新热卖NEW</span>
+                            </h4>
+
+                            <ul class="new-list">
+                                <li class="new-info">
+                                    <a href="" class="new-mes">
+                                        <img src="img/new1.jpg" alt="" />
+                                        <div class="new-text">
+                                           <p class="new-summary">【包邮装】苏菲长颈鹿牙胶 1只</p>
+                                           <span class="new-price">￥145.00</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="new-info">
+                                    <a href="" class="new-mes">
+                                        <img src="img/new1.jpg" alt="" />
+                                        <div class="new-text">
+                                           <p class="new-summary">【包邮装】苏菲长颈鹿牙胶 1只</p>
+                                           <span class="new-price">￥145.00</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="new-info">
+                                    <a href="" class="new-mes">
+                                        <img src="img/new1.jpg" alt="" />
+                                        <div class="new-text">
+                                           <p class="new-summary">【包邮装】苏菲长颈鹿牙胶 1只</p>
+                                           <span class="new-price">￥145.00</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="new-info">
+                                    <a href="" class="new-mes">
+                                        <img src="img/new1.jpg" alt="" />
+                                        <div class="new-text">
+                                           <p class="new-summary">【包邮装】苏菲长颈鹿牙胶 1只</p>
+                                           <span class="new-price">￥145.00</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="page">
+                                <span><a href=""></a></span>
+                                <span><a href=""></a></span>
+                                <span><a href=""></a></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="classify-mb clearfix" id="classify-hn">
                         <h2 class="caption">
                             <a href="" class="left"></a>
                             <a href="" class="right">
@@ -1382,7 +1559,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="classify-mb clearfix">
+                    <li class="classify-mb clearfix" id="classify-beauty">
                         <h2 class="caption">
                             <a href="" class="left"></a>
                             <a href="" class="right">
@@ -1516,7 +1693,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="classify-mb clearfix">
+                    <li class="classify-mb clearfix" id="classify-pc">
                         <h2 class="caption">
                             <a href="" class="left"></a>
                             <a href="" class="right">
@@ -1650,7 +1827,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="classify-mb clearfix">
+                    <li class="classify-mb clearfix" id="classify-hk">
                         <h2 class="caption">
                             <a href="" class="left"></a>
                             <a href="" class="right">
@@ -1784,141 +1961,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="classify-mb clearfix">
-                        <h2 class="caption">
-                            <a href="" class="left"></a>
-                            <a href="" class="right">
-                                查看更多
-                                <i></i>
-                            </a>
-                        </h2>
-                        <div class="classify-left">
-                            <a href="" class="classify-logo"><img src="img/baby.jpg" alt="" /></a>
-                            <div class="classify-hot">
-                                <h3 class="hot-title">最热HOT
-                                </h3>
-                                <i class="title-border"></i>
-                                <ul class="hot-goods clearfix">
-                                    <li><a href="">配方奶粉</a></li>
-                                    <li><a href="">宝宝营养</a></li>
-                                    <li><a href="">羊奶粉</a></li>
-                                    <li><a href="">宝宝洗浴</a></li>
-                                    <li><a href="">喂养用品</a></li>
-                                    <li><a href="">奶瓶奶嘴</a></li>
-                                    <li><a href="">宝宝护肤</a></li>
-                                    <li><a href="">吸奶/储奶器</a></li>
-                                    <li><a href="">备孕营养</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="classify-center">
-                            <div class="center-up clearfix">
-                                <a href="" class="good-first clearfix">
-                                    <img src="img/goods4.jpg" alt="" />
-                                    <div class="good-txt">
-                                        <span class="good-summary">【6件包邮装】Aptamil...</span>
-                                        <p class="good-info"> 适用于6-10个月的婴儿，特别研发的配方三大配方革新主要</p>
-                                        <span class="good-price">
-                                            <em>￥1758.00</em>
-                                            <span>$211.32</span>
-                                        </span>
-                                    </div>
-                                </a>
-                                <a href="" class="good">
-                                    <img src="img/aptamil.jpg" alt="" /> 
-                                    <div class="good-txt">
-                                        <p class="good-summary">【包邮装】爱他美 白金版4段</p>
-                                        <span class="good-price">
-                                            <em>￥688.00</em>
-                                            <span>AU$122.81</span>
-                                        </span>
-                                    </div>       
-                                </a>
-                            </div>
-                            <div class="center-down">
-                                <a href="" class="good">
-                                    <img src="img/pediasure.jpg" alt="" /> 
-                                    <div class="good-txt">
-                                        <p class="good-summary">【包邮装】爱他美 白金版4段</p>
-                                        <span class="good-price">
-                                            <em>￥688.00</em>
-                                            <span>AU$122.81</span>
-                                        </span>
-                                    </div>       
-                                </a>
-                                <a href="" class="good">
-                                    <img src="img/goods5.jpg" alt="" /> 
-                                    <div class="good-txt">
-                                        <p class="good-summary">【包邮装】爱他美 白金版4段</p>
-                                        <span class="good-price">
-                                            <em>￥688.00</em>
-                                            <span>AU$122.81</span>
-                                        </span>
-                                    </div>       
-                                </a>
-                                <a href="" class="good">
-                                    <img src="img/ostelin.jpg" alt="" /> 
-                                    <div class="good-txt">
-                                        <p class="good-summary">【包邮装】爱他美 白金版4段</p>
-                                        <span class="good-price">
-                                            <em>￥688.00</em>
-                                            <span>AU$122.81</span>
-                                        </span>
-                                    </div>       
-                                </a>
-                            </div>
-                        </div>
-                        <div class="classify-right">
-                            <h4 class="new-hot">
-                                <i class="title-border"></i>
-                                <span>最新热卖NEW</span>
-                            </h4>
-                            <ul class="new-list">
-                                <li class="new-info">
-                                    <a href="" class="new-mes">
-                                        <img src="img/new1.jpg" alt="" />
-                                        <div class="new-text">
-                                           <p class="new-summary">【包邮装】苏菲长颈鹿牙胶 1只</p>
-                                           <span class="new-price">￥145.00</span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="new-info">
-                                    <a href="" class="new-mes">
-                                        <img src="img/new1.jpg" alt="" />
-                                        <div class="new-text">
-                                           <p class="new-summary">【包邮装】苏菲长颈鹿牙胶 1只</p>
-                                           <span class="new-price">￥145.00</span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="new-info">
-                                    <a href="" class="new-mes">
-                                        <img src="img/new1.jpg" alt="" />
-                                        <div class="new-text">
-                                           <p class="new-summary">【包邮装】苏菲长颈鹿牙胶 1只</p>
-                                           <span class="new-price">￥145.00</span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="new-info">
-                                    <a href="" class="new-mes">
-                                        <img src="img/new1.jpg" alt="" />
-                                        <div class="new-text">
-                                           <p class="new-summary">【包邮装】苏菲长颈鹿牙胶 1只</p>
-                                           <span class="new-price">￥145.00</span>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="page">
-                                <span><a href=""></a></span>
-                                <span><a href=""></a></span>
-                                <span><a href=""></a></span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="classify-mb clearfix">
+                    <li class="classify-mb clearfix" id="classify-gf">
                         <h2 class="caption">
                             <a href="" class="left"></a>
                             <a href="" class="right">
@@ -2053,7 +2096,7 @@
                         </div>
                     </li>
                 </ul>
-                <div class="brand-top">
+                <div class="brand-top" id="brand">
                     <h2 class="caption">
                         <a href="" class="left"></a>
                     </h2>

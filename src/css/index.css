@@ -445,13 +445,13 @@
   position: absolute;
   top: 0;
   left: 0;
+  height: 420px;
 }
 
 #box .banner .images li {
   position: absolute;
   top: 0;
   left: 0;
-  padding-left: 220px;
   z-index: -10;
   display: none;
   width: 100%;
@@ -462,6 +462,7 @@
   display: block;
   height: 420px;
   width: 770px;
+  margin-left: 220px;
 }
 
 #box .banner .images li a img {
@@ -837,7 +838,7 @@
 
 #box .main .global .global-seller .seller-main .seller-intro .seller-top .seller-store {
   display: block;
-  height: 180px;
+  height: 160px;
   width: 390px;
 }
 

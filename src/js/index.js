@@ -1,6 +1,6 @@
 require(['config'],function(){
-    // 轮播图部分
     require(['jquery'],function($){
+        // 轮播图部分
         // 显示第一张
         $('.banner .images li').eq(0).show();
         $('.banner .page li').eq(0).children().addClass('action');
@@ -44,6 +44,59 @@ require(['config'],function(){
         })
         $('.btn .btn-right').on('click',function(e){
             autoPlay();
+            e.preventDefault();
+        })
+
+
+        // 设置鼠标悬停图片上时，图片上移
+        $('.good-up').on('mouseenter',function(){
+            $(this).css({
+                'marginTop':-5,
+                'marginBottom':5
+            })
+        }).on('mouseleave',function(){
+            $(this).css({
+                'marginTop':0,
+                'marginBottom':0
+            })
+        })
+
+
+        // 首页吸顶和楼梯
+        var $classify = $('.nav .classify');
+        var $height = $('.global-seller').outerHeight(true);
+        // 获取滚动条滚动过的距离
+        $(window).scroll(function(){
+            var $scrollTop = $(window).scrollTop();
+            if($scrollTop>=720){
+                $('.ceiling').fadeIn();
+                $('.stairway').fadeIn();
+            }else{
+                $('.ceiling').fadeOut();
+                $('.stairway').fadeOut();
+            }
+            var $i = Math.floor(($scrollTop-720)/$height);
+            var $idx = $i>0 ? $i : null;
+            var $a = $classify.find('a');
+            $a.find('i').css({'display':'block'})
+            $a.find('span').css({'display':'none'});
+            $a.eq($idx).find('i').css({'display':'none'});
+            $a.eq($idx).find('span').css({'display':'block'})
+        })
+        $classify.on('mouseenter','a',function(){
+            $(this).find('i').css({'display':'none'});
+            $(this).find('span').css({'display':'block'});
+        }).on('mouseleave','a',function(){
+            $(this).find('i').css({'display':'block'});
+            $(this).find('span').css({'display':'none'});
+        })
+        $classify.on('click','a',function(e){
+            var $idx = $(this).index();
+            var $scrollTop = $height*$idx+720;
+            $('html,body').stop().animate({scrollTop:$scrollTop});
+        });
+        $('.go-top').on('click',function(e){
+            $('html,body').stop().animate({scrollTop:0});
             e.preventDefault();
         })
     })
