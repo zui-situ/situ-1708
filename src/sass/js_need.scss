@@ -24,7 +24,7 @@
 //首页楼梯
 .nav{
     .stairway{
-        position:fixed;top:30%;right:60px;width:39px;height:440px;
+        position:fixed;top:30%;left:50%;margin-left:610px;width:39px;height:440px;
         .classify{
             background: #fff;border-right:1px solid $borderColor;border-left:1px solid $borderColor;
             a{

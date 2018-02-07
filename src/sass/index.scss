@@ -1,10 +1,10 @@
 @import 'var';
 #box{
-    .adv{
-        img{display:block;width:100%;}
-    }
     .header{
         border-bottom:1px solid #eee;background: #FAFAFA;
+        .adv{
+            img{display:block;width:100%;}
+        }
         .container{
             .h_left{
                 color:$fontColor;font-size:$smallFontSize;display:inline-block;height:30px;line-height:30px;
@@ -415,34 +415,40 @@
                     }
                 }
                 .classify-right{
-                    float:right;width:239px;background: #fff;border-top:2px solid #FF5555;padding-bottom:31px;position:relative;
+                    float:right;width:239px;background: #fff;border-top:2px solid #FF5555;padding-bottom:31px;position:relative;overflow:hidden;
                     .new-hot{
                         position:relative;
                         span{display:block;height:48px;line-height:48px;text-align:center;font-size:12px;font-weight:bolder;position:relative;width:100px;margin:0 auto;background: #fff;
                         }
                         .title-border{display:block;width:185px;border-top:1px solid $borderColor;position:absolute;top:24px;left:30px;}
                     }
-                    .new-list{
-                        .new-info{
-                            .new-mes{
-                                display:block;border-bottom:1px solid $borderColor;height:84px;padding-top:15px;
-                                img{height:80px;width:80px;float:left;}
-                                .new-text{
-                                    .new-summary{font-size:12px;}
-                                    .new-price{font-size:14px;color:$priceColor;font-weight:bolder;}
+                    .carousel{
+                        height:399px;width:239px;
+                        .carousel-main{
+                            position:absolute;
+                            .new-list{
+                            float:left;width:239px;
+                                .new-info{
+                                    .new-mes{
+                                        display:block;border-bottom:1px solid $borderColor;height:84px;padding-top:15px;
+                                        img{height:80px;width:80px;float:left;}
+                                        .new-text{
+                                            .new-summary{font-size:12px;}
+                                            .new-price{font-size:14px;color:$priceColor;font-weight:bolder;}
+                                        }
+                                    }
+                                }
+                                .new-info:last-child{
+                                    a{border:none;}
                                 }
                             }
                         }
-                        .new-info:last-child{
-                            a{border:none;}
-                        }
-                    }
-                    .page{
-                        position:absolute;bottom:20px;left:100px;
-                        span{
+                        .carousel-page{
+                            position:absolute;bottom:20px;left:100px;
                             a{display:inline-block;height:10px;width:10px;background:#CCCCCC;border-radius:50%;}
                         }
                     }
+                    
                 }
             }    
         }
@@ -482,17 +488,18 @@
                     }
                     .bill-page{
                         float:right;color:#B1B1C3;
-                        .arrow-left{display:inline-block;height:20px;width:20px;background:url(../img/icon.fw.png) no-repeat -370px 0;}
-                        .arrow-right{display:inline-block;height:20px;width:20px;background:url(../img/icon.fw.png) no-repeat -400px 0;}
+                        .arrow-left{display:inline-block;height:20px;width:20px;background:url(../img/icon.fw.png) no-repeat -60px -30px;}
+                        .arrow-right{display:inline-block;height:20px;width:20px;background:url(../img/icon.fw.png) no-repeat -90px -30px;}
                         .bill-change{font-size:16px;}
                         .bill-num{font-size:16px;}
                     }
                 }
                 .bill-show{
-                    height:290px;width:240px;background:#fff;
+                    height:290px;width:240px;background:#fff;position:relative;overflow:hidden;
                     .bill-list{
+                        position:absolute;
                         .bill-item{
-                            position:relative;
+                            position:relative;float:left;width:240px;
                             .link{
                                 display:block;height:200px;width:240px;
                                 img{display:block;height:200px;width:240px;}

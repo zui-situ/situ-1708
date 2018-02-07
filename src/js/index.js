@@ -99,6 +99,145 @@ require(['config'],function(){
             $('html,body').stop().animate({scrollTop:0});
             e.preventDefault();
         })
+
+
+        // 小轮播图无缝滚动
+        // 复制第一组到最后
+        var $mbMain = $('#classify-mb .carousel .carousel-main');
+        var $hnMain = $('#classify-hn .carousel .carousel-main');
+        var $beMain = $('#classify-beauty .carousel .carousel-main');
+        var $pcMain = $('#classify-pc .carousel .carousel-main');
+        var $gfMain = $('#classify-gf .carousel .carousel-main');
+        var $hkMain = $('#classify-hk .carousel .carousel-main');
+        var $cMain = $('.carousel .carousel-main');
+        var $mbfirst=$mbMain.children().eq(0).clone(true).appendTo($mbMain);
+        var $hnfirst=$hnMain.children().eq(0).clone(true).appendTo($hnMain);
+        var $befirst=$beMain.children().eq(0).clone(true).appendTo($beMain);
+        var $pcfirst=$pcMain.children().eq(0).clone(true).appendTo($pcMain);
+        var $gffirst=$gfMain.children().eq(0).clone(true).appendTo($gfMain);
+        var $hkfirst=$hkMain.children().eq(0).clone(true).appendTo($hkMain);
+        var $len = $mbMain.children().length;
+        var $width = $mbMain.children().eq(0).outerWidth(true);
+
+        var $mbPage = $('#classify-mb .carousel .carousel-page');
+        var $hnPage = $('#classify-hn .carousel .carousel-page');
+        var $bePage = $('#classify-beauty .carousel .carousel-page');
+        var $pcPage = $('#classify-pc .carousel .carousel-page');
+        var $hkPage = $('#classify-hk .carousel .carousel-page');
+        var $gfPage = $('#classify-gf .carousel .carousel-page');
+        var $cPage = $('.carousel .carousel-page');
+        $mbPage.children().eq(0).css({background:'#7F7F7F'});
+        $hnPage.children().eq(0).css({background:'#7F7F7F'});
+        $bePage.children().eq(0).css({background:'#7F7F7F'});
+        $pcPage.children().eq(0).css({background:'#7F7F7F'});
+        $hkPage.children().eq(0).css({background:'#7F7F7F'});
+        $gfPage.children().eq(0).css({background:'#7F7F7F'});
+
+        $mbMain.css({'width':$width*$len});
+        $hnMain.css({'width':$width*$len});
+        $beMain.css({'width':$width*$len});
+        $pcMain.css({'width':$width*$len});
+        $gfMain.css({'width':$width*$len});
+        $hkMain.css({'width':$width*$len});
+        var i = 0;
+        function carAuto(){
+            i++;
+            cShow();
+        }
+        var cTimer = setInterval(carAuto,5000);
+        $cPage.on('click','a',function(e){
+            i = $(this).index();
+            cShow();
+            e.preventDefault();
+        })
+        $cMain.on('mouseenter',function(){
+            clearInterval(cTimer);
+        }).on('mouseleave',function(){
+            cTimer = setInterval(carAuto,5000);
+        });
+        function cShow(){
+            if(i>=$len){
+                $cMain.css({left:0});
+                i=1;
+            }
+            $cPage.children().css({background:'#CCCCCC'})
+
+            if(i<$len-1){
+                $mbPage.children().eq(i).css({background:'#7F7F7F'});
+                $hnPage.children().eq(i).css({background:'#7F7F7F'});
+                $bePage.children().eq(i).css({background:'#7F7F7F'});
+                $pcPage.children().eq(i).css({background:'#7F7F7F'});
+                $hkPage.children().eq(i).css({background:'#7F7F7F'});
+                $gfPage.children().eq(i).css({background:'#7F7F7F'});
+
+            }else{
+                $mbPage.children().eq(0).css({background:'#7F7F7F'});
+                $hnPage.children().eq(0).css({background:'#7F7F7F'});
+                $bePage.children().eq(0).css({background:'#7F7F7F'});
+                $pcPage.children().eq(0).css({background:'#7F7F7F'});
+                $hkPage.children().eq(0).css({background:'#7F7F7F'});
+                $gfPage.children().eq(0).css({background:'#7F7F7F'});
+            }
+            var target = -$width*i;
+            $cMain.stop().animate({left:target})
+        }
+
+
+        // brand部分轮播图
+        var $billList = $('.bill-show .bill-list');
+        var $billFirst = $billList.children().eq(0).clone(true).appendTo($billList);
+        var $bWidth = $billList.children().eq(0).outerWidth(true);
+        var $bLen = $billList.children().length;
+        var $leftNum = $('.bill-top .bill-page .bill-change');
+        var $rightNum = $('.bill-top .bill-page .bill-num');
+        $rightNum.html($bLen-1);
+        $billList.css({width:$bWidth*$bLen});
+        var bIdx = 0;
+        function bAuto(){
+            bIdx++;
+            bShow();
+        }
+        var bTimer = setInterval(bAuto,10000);
+        $billList.on('mouseenter',function(){
+            clearInterval(bTimer);
+        }).on('mouseleave',function(){
+            bTimer = setInterval(bAuto,10000);
+        });
+
+        function bShow(){
+            if(bIdx>=$bLen){
+                $billList.css({left:0});
+                bIdx=1;
+            }
+            if(bIdx<$bLen-1){
+                $leftNum.html(bIdx+1);
+            }else{
+                $leftNum.html(1);
+            }
+            var target = -$bWidth*bIdx;
+            $billList.stop().animate({left:target})
+        }
+
+        $('.bill-top .bill-page .arrow-left').on('click',function(){
+            bIdx--;
+            console.log(bIdx);
+            console.log($billList.css('left'));
+            if(bIdx<0){
+                $billList.css({left:-$bWidth*($bLen-1)});
+                bIdx=$bLen-2;
+            }
+            if(bIdx>-1){
+                $leftNum.html(bIdx+1);
+            }else{
+                $leftNum.html($bLen-1);
+            }
+            var target = -$bWidth*bIdx;
+            $billList.stop().animate({left:target})
+        })
+        $('.bill-top .bill-page .arrow-right').on('click',function(){
+            bIdx++;
+            bShow();
+        });
     })
 });
 

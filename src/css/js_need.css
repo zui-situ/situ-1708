@@ -98,7 +98,8 @@
 .nav .stairway {
   position: fixed;
   top: 30%;
-  right: 60px;
+  left: 50%;
+  margin-left: 610px;
   width: 39px;
   height: 440px;
 }
