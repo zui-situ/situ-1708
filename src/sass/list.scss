@@ -197,8 +197,10 @@
                         li{
                             float:left;margin-left:5px;
                             a{display:block;border:1px solid $borderColor;background: #fff;padding:5px 10px;}
+                            .active{background:$mainColor;color:#fff;}
                             a:hover{text-decoration:underline;}
                         }
+                        .active{background:$mainColor;color:#fff;}
                         .total-page{
                             height:26px;line-height:26px;color:#666666;
                             b{font-weight:bolder;}

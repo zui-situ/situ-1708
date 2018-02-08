@@ -577,8 +577,18 @@
   padding: 5px 10px;
 }
 
+#list .list-main .main-right .toolbar-button .filter-pager .pager li .active {
+  background: #0099E6;
+  color: #fff;
+}
+
 #list .list-main .main-right .toolbar-button .filter-pager .pager li a:hover {
   text-decoration: underline;
+}
+
+#list .list-main .main-right .toolbar-button .filter-pager .pager .active {
+  background: #0099E6;
+  color: #fff;
 }
 
 #list .list-main .main-right .toolbar-button .filter-pager .pager .total-page {
