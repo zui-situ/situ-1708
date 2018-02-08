@@ -1,0 +1,129 @@
+@import 'var';
+#buycar{
+    background:#F5F5F5;
+    .container{
+        .h_left{
+            color:#787878;font-size:$smallFontSize;display:inline-block;height:30px;line-height:30px;
+        }
+        .h_right{
+            li{
+                float:left;height:30px;line-height:30px;
+                a{color:#787878;font-size:$smallFontSize;}
+                span{display:inline-block;color:#dedede;font-size:$smallFontSize;margin:0 12px;}
+            }
+        }
+    }
+    .car-logo{
+        background:#fff;height:100px;border-bottom:1px solid $borderColor;
+        .logo-left{
+            float:left;
+            a{
+                display:block;width:310px;padding-top:18px;height:68px;
+                img{height:64px;width:310px;}
+            }
+        }
+        .logo-right{
+            float:right;padding-top:15px;
+            img{height:64px;width:450px;}
+        }
+    }
+    .container{
+        .cart{
+            .cart-head{
+                background: #fff;
+                .cart-title{
+                    background: #F5F5F5;height:25px;border-bottom:1px solid $mainColor;padding-top:30px;
+                    .cart-name{height:25px;width:80px;background:$mainColor;color:#fff;line-height:25px;text-align:center;}
+                }
+                .cart-thead{
+                    font-size:12px;text-align:center;
+                    li{float:left;height:40px;line-height:40px;}
+                    .checkbox{width:124px;padding-left:26px;text-align:left;}
+                    .product{width:230px;padding-right:95px;}
+                    .weight{width:179px;}
+                    .unit-price{width:88px;}
+                    .qty{width:178px;}
+                    .subtotal{width:134px;}
+                    .operation{width:110px;}
+                }
+            }
+            .cart-body{
+                background: #fff;
+                margin-top:20px;
+                .shop-country{
+                    margin:0 26px;border-bottom:1px solid $borderColor;height:40px;line-height:40px;
+                    .checkbox{
+                        font-size:12px;
+                        a{color:#000;}
+                        .country-flag{
+                            position:relative;padding-left:30px;
+                            i{display:block;width:18px;height:12px;background:url(../img/icon.fw.png) no-repeat -460px -30px;position:absolute;top:3px;left:7px;}
+                        }
+                    }
+                }
+                .product-list{
+                    .product-info{
+                        font-size:12px;text-align:center;border-bottom:1px solid $borderColor;
+                        li{float:left;}
+                        .checkbox{width:29px;padding-left:26px;text-align:left;line-height:80px;}
+                        .product{
+                            width:325px;padding:15px 95px 15px 0;
+                            .product-img{
+                                display:block;float:left;height:78px;width:78px;border:1px solid $borderColor;
+                                img{height:78px;width:78px;}
+                            }
+                            .product-name{display:block;float:left;width:230px;color:#000;}
+                        }
+                        .weight{width:179px;padding-top:26px;}
+                        .unit-price{width:88px;padding-top:26px;}
+                        .qty{
+                            width:178px;padding-top:26px;position:relative;
+                            .sub{display:inline-block;height:24px;width:24px;background:url(../img/icon.fw.png) no-repeat -430px -30px;border:1px solid $borderColor;position:absolute;top:26px;left:53px;}
+                            .add{display:inline-block;height:24px;width:24px;background:url(../img/icon.fw.png) no-repeat -400px -30px;border:1px solid $borderColor;position:absolute;top:26px;left:114px;}
+                            input{height:24px;width:24px;border-top:1px solid $borderColor;border-bottom:1px solid $borderColor;margin-left:20px;padding-left:14px;font-weight:bolder}
+                            }
+                        .subtotal{width:134px;padding-top:26px;font-weight:bolder;}
+                        .operation{
+                            width:110px;padding-top:26px;
+                        }
+                    }
+                    .product-tfoot{
+                        font-size:12px;
+                        .product-total{
+                            height:44px;line-height:44px;width:550px;float:right;
+                            span{margin-left:24px;}
+                            .product-all-tax{color:#4FC73B;}
+                        }
+                    }
+                }
+            }
+            .cart-foot{
+                padding:12px 26px;margin:20px 0 8px 0;background:#fff;
+                .control{
+                    width:330px;font-size:12px;
+                    .checkbox{float:left;}
+                    .delete-link{
+                        float:right;
+                        a{margin-left:30px;color:#000;}
+                    }
+                }
+                .total-infos{
+                    float:right;font-size:12px;
+                    .submit-all{float:right;width:120px;height:48px;background:$priceColor;color:#fff;font-size:16px;font-weight:bolder;border-radius:5px;}
+                    .infos-wrap{
+                        float:left;margin-right:20px;
+                        .total{
+                            text-align:right;
+                            .total-quantity{color:$priceColor;font-size:14px;font-weight:bolder;}
+                            .symbol{color:$priceColor;ont-weight:bolder;}
+                            .integer{color:$priceColor;font-size:16px;font-weight:bolder;}
+                            .decimal{color:$priceColor;font-weight:bolder;}
+                        }
+                        .all-meta-infos{margin-top:5px;}
+                    }
+
+                }
+            }
+        }
+    }
+}

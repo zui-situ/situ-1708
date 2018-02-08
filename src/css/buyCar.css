@@ -1,0 +1,353 @@
+#buycar {
+  background: #F5F5F5;
+}
+
+#buycar .container .h_left {
+  color: #787878;
+  font-size: 12px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+}
+
+#buycar .container .h_right li {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+}
+
+#buycar .container .h_right li a {
+  color: #787878;
+  font-size: 12px;
+}
+
+#buycar .container .h_right li span {
+  display: inline-block;
+  color: #dedede;
+  font-size: 12px;
+  margin: 0 12px;
+}
+
+#buycar .car-logo {
+  background: #fff;
+  height: 100px;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+#buycar .car-logo .logo-left {
+  float: left;
+}
+
+#buycar .car-logo .logo-left a {
+  display: block;
+  width: 310px;
+  padding-top: 18px;
+  height: 68px;
+}
+
+#buycar .car-logo .logo-left a img {
+  height: 64px;
+  width: 310px;
+}
+
+#buycar .car-logo .logo-right {
+  float: right;
+  padding-top: 15px;
+}
+
+#buycar .car-logo .logo-right img {
+  height: 64px;
+  width: 450px;
+}
+
+#buycar .container .cart .cart-head {
+  background: #fff;
+}
+
+#buycar .container .cart .cart-head .cart-title {
+  background: #F5F5F5;
+  height: 25px;
+  border-bottom: 1px solid #0099E6;
+  padding-top: 30px;
+}
+
+#buycar .container .cart .cart-head .cart-title .cart-name {
+  height: 25px;
+  width: 80px;
+  background: #0099E6;
+  color: #fff;
+  line-height: 25px;
+  text-align: center;
+}
+
+#buycar .container .cart .cart-head .cart-thead {
+  font-size: 12px;
+  text-align: center;
+}
+
+#buycar .container .cart .cart-head .cart-thead li {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+
+#buycar .container .cart .cart-head .cart-thead .checkbox {
+  width: 124px;
+  padding-left: 26px;
+  text-align: left;
+}
+
+#buycar .container .cart .cart-head .cart-thead .product {
+  width: 230px;
+  padding-right: 95px;
+}
+
+#buycar .container .cart .cart-head .cart-thead .weight {
+  width: 179px;
+}
+
+#buycar .container .cart .cart-head .cart-thead .unit-price {
+  width: 88px;
+}
+
+#buycar .container .cart .cart-head .cart-thead .qty {
+  width: 178px;
+}
+
+#buycar .container .cart .cart-head .cart-thead .subtotal {
+  width: 134px;
+}
+
+#buycar .container .cart .cart-head .cart-thead .operation {
+  width: 110px;
+}
+
+#buycar .container .cart .cart-body {
+  background: #fff;
+  margin-top: 20px;
+}
+
+#buycar .container .cart .cart-body .shop-country {
+  margin: 0 26px;
+  border-bottom: 1px solid #E6E6E6;
+  height: 40px;
+  line-height: 40px;
+}
+
+#buycar .container .cart .cart-body .shop-country .checkbox {
+  font-size: 12px;
+}
+
+#buycar .container .cart .cart-body .shop-country .checkbox a {
+  color: #000;
+}
+
+#buycar .container .cart .cart-body .shop-country .checkbox .country-flag {
+  position: relative;
+  padding-left: 30px;
+}
+
+#buycar .container .cart .cart-body .shop-country .checkbox .country-flag i {
+  display: block;
+  width: 18px;
+  height: 12px;
+  background: url(../img/icon.fw.png) no-repeat -460px -30px;
+  position: absolute;
+  top: 3px;
+  left: 7px;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info {
+  font-size: 12px;
+  text-align: center;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info li {
+  float: left;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info .checkbox {
+  width: 29px;
+  padding-left: 26px;
+  text-align: left;
+  line-height: 80px;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info .product {
+  width: 325px;
+  padding: 15px 95px 15px 0;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info .product .product-img {
+  display: block;
+  float: left;
+  height: 78px;
+  width: 78px;
+  border: 1px solid #E6E6E6;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info .product .product-img img {
+  height: 78px;
+  width: 78px;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info .product .product-name {
+  display: block;
+  float: left;
+  width: 230px;
+  color: #000;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info .weight {
+  width: 179px;
+  padding-top: 26px;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info .unit-price {
+  width: 88px;
+  padding-top: 26px;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info .qty {
+  width: 178px;
+  padding-top: 26px;
+  position: relative;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info .qty .sub {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(../img/icon.fw.png) no-repeat -430px -30px;
+  border: 1px solid #E6E6E6;
+  position: absolute;
+  top: 26px;
+  left: 53px;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info .qty .add {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(../img/icon.fw.png) no-repeat -400px -30px;
+  border: 1px solid #E6E6E6;
+  position: absolute;
+  top: 26px;
+  left: 114px;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info .qty input {
+  height: 24px;
+  width: 24px;
+  border-top: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6;
+  margin-left: 20px;
+  padding-left: 14px;
+  font-weight: bolder;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info .subtotal {
+  width: 134px;
+  padding-top: 26px;
+  font-weight: bolder;
+}
+
+#buycar .container .cart .cart-body .product-list .product-info .operation {
+  width: 110px;
+  padding-top: 26px;
+}
+
+#buycar .container .cart .cart-body .product-list .product-tfoot {
+  font-size: 12px;
+}
+
+#buycar .container .cart .cart-body .product-list .product-tfoot .product-total {
+  height: 44px;
+  line-height: 44px;
+  width: 550px;
+  float: right;
+}
+
+#buycar .container .cart .cart-body .product-list .product-tfoot .product-total span {
+  margin-left: 24px;
+}
+
+#buycar .container .cart .cart-body .product-list .product-tfoot .product-total .product-all-tax {
+  color: #4FC73B;
+}
+
+#buycar .container .cart .cart-foot {
+  padding: 12px 26px;
+  margin: 20px 0 8px 0;
+  background: #fff;
+}
+
+#buycar .container .cart .cart-foot .control {
+  width: 330px;
+  font-size: 12px;
+}
+
+#buycar .container .cart .cart-foot .control .checkbox {
+  float: left;
+}
+
+#buycar .container .cart .cart-foot .control .delete-link {
+  float: right;
+}
+
+#buycar .container .cart .cart-foot .control .delete-link a {
+  margin-left: 30px;
+  color: #000;
+}
+
+#buycar .container .cart .cart-foot .total-infos {
+  float: right;
+  font-size: 12px;
+}
+
+#buycar .container .cart .cart-foot .total-infos .submit-all {
+  float: right;
+  width: 120px;
+  height: 48px;
+  background: #FF3333;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+#buycar .container .cart .cart-foot .total-infos .infos-wrap {
+  float: left;
+  margin-right: 20px;
+}
+
+#buycar .container .cart .cart-foot .total-infos .infos-wrap .total {
+  text-align: right;
+}
+
+#buycar .container .cart .cart-foot .total-infos .infos-wrap .total .total-quantity {
+  color: #FF3333;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+#buycar .container .cart .cart-foot .total-infos .infos-wrap .total .symbol {
+  color: #FF3333;
+  ont-weight: bolder;
+}
+
+#buycar .container .cart .cart-foot .total-infos .infos-wrap .total .integer {
+  color: #FF3333;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+#buycar .container .cart .cart-foot .total-infos .infos-wrap .total .decimal {
+  color: #FF3333;
+  font-weight: bolder;
+}
+
+#buycar .container .cart .cart-foot .total-infos .infos-wrap .all-meta-infos {
+  margin-top: 5px;
+}

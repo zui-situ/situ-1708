@@ -1,0 +1,128 @@
+@import 'var';
+#details{
+    background:#F6F6F6;
+    .breadcrumbs{
+        ul{
+            li{height:44px;float:left;width:48px;font-size:12px;line-height:48px;}
+            .home{
+                padding-left:24px;position:relative;
+                i{display:block;height:14px;width:14px;position:absolute;top:18px;left:0;background:url(../img/icon.fw.png) no-repeat -120px -30px;}
+                a{font-size:12px;color:$fontColor;}
+                span{display:block;height:14px;width:12px;background:url(../img/icon.fw.png) no-repeat -230px 0;position:absolute;top:17px;left:54px;}
+            }
+            .category{font-size:12px;color:$fontColor;width:348px;}
+        }
+    }
+    .details-main{
+        .product-essential{
+            margin-bottom:10px;background: #fff;border:1px solid $borderColor;
+            .product-img{
+                margin:20px;float:left;
+                .product-zoom{
+                    height:398px;width:398px;border:1px solid $borderColor;margin-bottom:12px;
+                    img{
+                        height:398px;height:398px;
+                    }
+                }
+                .more-views{
+                    margin-bottom:12px;
+                    ul{
+                        margin-left:-12px;
+                        li{
+                            float:left;height:60px;width:60px;border:1px solid $borderColor;padding:4px;margin-left:12px;
+                            img{height:60px;width:60px;}
+                        }
+                    }
+                }
+                .bdshare-btn{
+                    span{font-size:12px;}
+                    a{display:inline-block;height:20px;width:20px;background:url(../img/icon.fw.png) no-repeat -370px -30px;margin-left:5px;}
+                    a:nth-child(2){background:url(../img/icon.fw.png) no-repeat -340px -30px;}
+                    a:nth-child(3){background:url(../img/icon.fw.png) no-repeat -280px -30px;}
+                    a:nth-child(4){background:url(../img/icon.fw.png) no-repeat -310px -30px;}
+                    a:nth-child(5){background:url(../img/icon.fw.png) no-repeat -250px -30px;}
+                }
+            }
+            .product-info{
+                float:left;width:530px;margin-top:20px;
+                label{margin-right:20px;}
+                .product-name{
+                    .ch-name{font-size:16px;font-weight:bolder;}
+                    .country{
+                        position:relative;margin:10px 0;
+                        .way-de{
+                            font-size:12px;color:$fontColor;padding-left:32px;
+                            i{display:block;height:16px;width:24px;background:url(../img/icon.fw.png) no-repeat -220px -30px;position:absolute;top:4px;left:0;}
+                        }
+                        .v-bar{margin:0 12px;}
+                        .brand{font-size:12px;}
+                    }
+                    .product-content{font-size:12px;color:$fontColor;}
+                }
+                .product-promotion{
+                    font-size:12px;border-top:1px dotted $borderColor;border-bottom:1px dotted $borderColor;width:510px;padding:10px;margin:10px 0;background:#F5F5F5;
+                    .line{
+                        margin-bottom:10px;
+                        .rmb-price{color:$priceColor;font-size:16px;font-weight:bolder;}
+                    }
+                }
+                .product-options{font-size:12px;color:$fontColor;margin:0 0 10px 10px;}
+                .product-add{
+                    font-size:12px;color:$fontColor;margin:0 0 10px 10px;
+                    .qty-block{
+                        display:inline-block;position:relative;
+                        .sub{display:inline-block;height:24px;width:24px;background:url(../img/icon.fw.png) no-repeat -430px -30px;border:1px solid $borderColor;position:absolute;top:0;left:0;}
+                        .add{display:inline-block;height:24px;width:24px;background:url(../img/icon.fw.png) no-repeat -400px -30px;border:1px solid $borderColor;position:absolute;top:0;left:64px;}
+                        input{height:24px;width:24px;border-top:1px solid $borderColor;border-bottom:1px solid $borderColor;margin-left:26px;padding-left:14px;}
+                        .limit{padding-left:35px;
+                            em{color:$priceColor;}
+                        }
+                    }
+                }
+                .buy-car{
+                    display:block;height:40px;width:160px;background:$priceColor;color:#fff;font-weight:bolder;line-height:40px;text-align:center;margin:30px 0 30px 10px;
+                }
+            }
+            .supplier{
+                padding:0 14px 0 15px;float:right;width:150px;border-left:1px solid $borderColor;font-size:12px;
+                .logo{width:150px;height:100px;border-bottom:1px dotted $borderColor;}
+                .title{width:150px;height:18px;line-height:18px;text-align:center;margin-top:10px;}
+                .intro{margin-top:10px;color:$fontColor;}
+                .product-alike{
+                    p{width:150px;text-align:center;color:$fontColor;margin-top:10px;}
+                    .alike-show{
+                        margin-top:15px;
+                        .alike-list{
+                            .alike-li{
+                                .single{
+                                    img{height:150px;width:150px;}
+                                    .price{display:block;font-size:12px;color:$priceColor;text-align:center;}
+                                    .name{display:block;height:18px;text-overflow:ellipsis;overflow:hidden;}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .product-hot{
+            background: #fff;border:1px solid $borderColor;
+            h3{height:36px;padding-left:12px;font-size:14px;font-weight:bolder;line-height:36px;}
+            .product-showarea{
+                padding:30px 0;
+                .area-list{
+                    float:left;width:140px;margin-left:50px;
+                    a{
+                        display:block;
+                        img{height:140px;width:140px;}
+                        span{display:block;overflow:hidden;height:35px;font-size:12px;}
+                        &:hover{
+                            span{color:$mainColor;}
+                        }
+                    }
+                    p{color:$priceColor;font-weight:bolder;}
+                }
+            }
+        }
+    }
+}
