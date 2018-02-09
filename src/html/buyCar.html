@@ -5,6 +5,7 @@
     <title>购物车</title>
     <link rel="stylesheet" type="text/css" href="../css/buyCar.css" />
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <script type="text/javascript" src="../js/require.js" data-main="../js/buycar"></script>
 </head>
 <body>
     <div id="buycar">
@@ -75,7 +76,7 @@
                         <ul class="product-info clearfix">
                             <li class="checkbox"><input type="checkbox" /></li>
                             <li class="product">
-                                <a href="" class="product-img">
+                                <a href="../html/details.html" class="product-img">
                                     <img src="../img/product.jpg" alt="" />
                                 </a>
                                 <a href="" class="product-name">【2件包邮装】Max Factor 蜜丝佛陀 水漾魔幻触感粉底霜 2*11.5g/盒 #40-象牙色</a>
@@ -124,7 +125,7 @@
                                 <a href="" class="add"></a>
                             </li>
                             <li class="subtotal">￥155.00</li>
-                            <li class="operation"><a href="" class="delete">删除</a></li>
+                            <li class="operation"><a class="delete">删除</a></li>
                         </ul>
                         <div class="product-tfoot clearfix">
                             <div class="product-total">
@@ -132,13 +133,12 @@
                                 <span class="product-all-weight">重量：200g</span>
                                 <span class="product-all-shipping-cost">运费：￥35.00 <a href="http://www.haituncun.com/helper/faq/shipping-costs/" class="shipping-cost-list" title="查看运费计算表"></a></span>
                                 <span class="product-all-tax">关税：￥93.00（商家承担）</span>
-                            </div>
-                            
+                            </div> 
                         </div>
                     </div>
                 </div>
                 <div class="cart-foot clearfix">
-                    <div class="control">
+                    <div class="control clearfix">
                         <div class="cell checkbox"><input class="foot-check-all" type="checkbox"> 全选</div>
                         <div class="cell delete-link">
                             <a href="javascript:void(0)" class="delete">删除选中商品</a>

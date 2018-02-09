@@ -59,9 +59,9 @@ require(['config'],function(){
             url:'../api/list.php',
             dataType:'json',
             data:{
-                    pageNo:pageNo,
-                    qty:qty
-                },
+                pageNo:pageNo,
+                qty:qty
+            },
             success:function(res){
                 console.log(res);
                 var $lis=res.data.map(function(item){
