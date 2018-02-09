@@ -1,0 +1,132 @@
+#reg .u-page .reg-header {
+  height: 100px;
+  width: 100%;
+}
+
+#reg .u-page .reg-header .home {
+  float: left;
+  margin-top: 16px;
+}
+
+#reg .u-page .reg-header .server {
+  float: right;
+  display: block;
+  width: 300px;
+  height: 40px;
+  margin: 35px 0 0 65px;
+}
+
+#reg .u-page .reg-header .server img {
+  height: 40px;
+  width: 300px;
+}
+
+#reg .u-page .reg-foot {
+  background: #D01E3E;
+  height: 537px;
+  padding-top: 50px;
+}
+
+#reg .u-page .reg-foot .foot-img {
+  float: left;
+}
+
+#reg .u-page .reg-foot .reg-form {
+  float: right;
+  width: 318px;
+  background: #fff;
+  padding: 0 36px;
+  height: 530px;
+}
+
+#reg .u-page .reg-foot .reg-form .form-header {
+  height: 100px;
+  line-height: 100px;
+}
+
+#reg .u-page .reg-foot .reg-form .form-header h2 {
+  float: left;
+  font-weight: bolder;
+}
+
+#reg .u-page .reg-foot .reg-form .form-header a {
+  float: right;
+  font-size: 12px;
+  color: #0099E6;
+}
+
+#reg .u-page .reg-foot .reg-form .form-header span {
+  float: right;
+  font-size: 12px;
+}
+
+#reg .u-page .reg-foot .reg-form .form-box .inner {
+  position: relative;
+}
+
+#reg .u-page .reg-foot .reg-form .form-box .inner .notice {
+  color: #fff;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  font-size: 12px;
+}
+
+#reg .u-page .reg-foot .reg-form .form-box .inner .danger {
+  border: 1px solid #f00;
+}
+
+#reg .u-page .reg-foot .reg-form .form-box .inner .enter {
+  width: 253px;
+  height: 35px;
+  border: 1px solid #E6E6E6;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+
+#reg .u-page .reg-foot .reg-form .form-box .inner .phone {
+  width: 253px;
+  height: 35px;
+  border: 1px solid #E6E6E6;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+
+#reg .u-page .reg-foot .reg-form .form-box .inner .password {
+  width: 253px;
+  height: 35px;
+  border: 1px solid #E6E6E6;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+
+#reg .u-page .reg-foot .reg-form .form-box .inner .code {
+  width: 253px;
+  height: 35px;
+  border: 1px solid #E6E6E6;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+
+#reg .u-page .reg-foot .reg-form .form-box .inner label {
+  font-size: 12px;
+}
+
+#reg .u-page .reg-foot .reg-form .form-box .inner .remember {
+  font-size: 12px;
+}
+
+#reg .u-page .reg-foot .reg-form .form-box .inner .remember a {
+  color: #0099E6;
+  float: right;
+}
+
+#reg .u-page .reg-foot .reg-form .form-box .inner .submit {
+  height: 45px;
+  background: #0099E6;
+  width: 315px;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 20px;
+}

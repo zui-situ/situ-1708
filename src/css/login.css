@@ -1,0 +1,91 @@
+#login .u-page .login-header {
+  height: 100px;
+  width: 100%;
+}
+
+#login .u-page .login-header .home {
+  float: left;
+  margin-top: 16px;
+}
+
+#login .u-page .login-header .server {
+  float: right;
+  display: block;
+  width: 300px;
+  height: 40px;
+  margin: 35px 0 0 65px;
+}
+
+#login .u-page .login-header .server img {
+  height: 40px;
+  width: 300px;
+}
+
+#login .u-page .login-foot {
+  background: #D01E3E;
+  height: 537px;
+  padding-top: 50px;
+}
+
+#login .u-page .login-foot .foot-img {
+  float: left;
+}
+
+#login .u-page .login-foot .login-form {
+  float: right;
+  width: 318px;
+  height: 410px;
+  background: #fff;
+  padding: 0 36px;
+}
+
+#login .u-page .login-foot .login-form .form-header {
+  height: 100px;
+  line-height: 100px;
+}
+
+#login .u-page .login-foot .login-form .form-header h2 {
+  float: left;
+  font-weight: bolder;
+}
+
+#login .u-page .login-foot .login-form .form-header a {
+  float: right;
+  font-size: 12px;
+  color: #0099E6;
+}
+
+#login .u-page .login-foot .login-form .form-box .inner .username {
+  width: 253px;
+  height: 35px;
+  border: 1px solid #E6E6E6;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+
+#login .u-page .login-foot .login-form .form-box .inner .password {
+  width: 253px;
+  height: 35px;
+  border: 1px solid #E6E6E6;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+
+#login .u-page .login-foot .login-form .form-box .inner .remember {
+  font-size: 12px;
+}
+
+#login .u-page .login-foot .login-form .form-box .inner .remember a {
+  color: #0099E6;
+  float: right;
+}
+
+#login .u-page .login-foot .login-form .form-box .inner .submit {
+  height: 45px;
+  background: #0099E6;
+  width: 315px;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 20px;
+}
